@@ -1,7 +1,7 @@
 import { Box } from '@mui/material'
 import { blue } from '@mui/material/colors'
 import React, { useEffect, useState } from 'react'
-import ChatArea from '../components/chat/ChatArea'
+import ChatArea from '../components/Chat/ChatArea'
 import ListOfUsers from '../components/chat/ListOfUsers'
 import Welcome from '../components/chat/Welcome'
 import api from '../configs/api'
