@@ -3,7 +3,7 @@ import { blue } from '@mui/material/colors'
 import React, { useEffect, useState } from 'react'
 import ChatArea from '../components/Chat/ChatArea'
 import ListOfUsers from '../components/chat/ListOfUsers'
-import Welcome from '../components/chat/Welcome'
+import Welcome from '../components/Chat/Welcome'
 import api from '../configs/api'
 import { useUser } from '../contexts/UserContext'
 
