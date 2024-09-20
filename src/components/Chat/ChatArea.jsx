@@ -30,6 +30,7 @@ const ChatApp = ({ selectedUser }) => {
         const handleMessage = (message) => setMessages(prevMessages => [...prevMessages, message]); // Using functional update
         autoScroll(true)
         socket.on('message', handleMessage);
+        return () => socket.disconnect()
     }, [socket]);
 
     return (
